@@ -1,12 +1,50 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <strong><p>Name</p></strong>
-  <input type="text" name="My Name" value="">
-  <body>
 
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h2>Contact Me</h2>
+    <hr size="3" noshade><br>
+
+<strong>
+  <form action="mailto:abhi@gmail.com" method="post" enctype="text/plain">
+    <table>
+      <tr>
+        <td><label for="">Name:</label></td>
+        <td><input type="text" name="My Name" value=""><br></td>
+      </tr>
+      <tr>
+        <td><label for="">Contact No:</label></td>
+        <td><input type="Phone" name="Contact No." value=""><br></td>
+      </tr>
+      <tr>
+        <td><label for="">Email:</label></td>
+        <td><input type="email" name="Email Id." value=""><br></td>
+      </tr>
+      <tr>
+        <td><label for="">Password:</label></td>
+        <td><input type="password" name="Password" value=""><br></td>
+      </tr>
+    </table>
+    <!--
+    <label for="">Do you want to signup for email list ?</label>
+    <input type="checkbox" name="" value=""><br>
+    <input type="range" name="" value=""><br>
+    <input type="date" name="" value=""><br>
+    <input type="radio" name="" value="">
+    <input type="radio" name="" value="">
+    <input type="radio" name="" value="">
+    -->
+    <br>
+    <label for="">Your Message:</label><br>
+    <textarea name="Message" rows="8" cols="30"></textarea>
+<input type="submit" name="" value="Submit">
+  </form>
+</strong>
+</body>
+
 </html>
